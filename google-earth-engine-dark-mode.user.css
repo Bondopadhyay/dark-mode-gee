@@ -245,28 +245,29 @@
     .inspect-panel {
         font-family: monospace;
     }
-
-    .tree-manager .tree > .header {
+/*Changing the script files' tree-fonts default in black IN CASE the panel's background is white*/
+    
+        .tree-manager .tree > .header {
         font-family: 'Inter', 'DejaVu Sans Mono', 'Ubuntu Mono', 'Menlo', 'Monaco', 'Bitstream Vera Sans Mono', 'Consolas', 'source-code-pro', monospace!important;
-        font-weight: normal;
-        color: #82ead5d9;
-        line-height: 25px;
+        font-weight: bold;
+        color: #01454c;
+        line-height: 20px;
     }
 
     .tree-manager .tree-item,
     .tree-manager .create-link {
         font-weight: normal;
-        color: #dad759ab;
+        color: #000;
         font-style: normal;
-        line-height: 25px;
+        line-height: 22px;
     }
     .tree-item:hover {
         font-weight: normal;
-        color: #dad759ab;
+        color: #000;
         font-style: normal;
     }
     .tree-manager .header {
-        color: #82ead5;
+        color: #000;
         font-weight: bold;
     }
 
@@ -902,11 +903,11 @@ estou colocando uma cor azul clara nela*/
     .ee-visualizer .goog-slider-thumb {
         background: #342F2F;
     }
-
+/*Changing the Head's height as it was overlapping the editor*/ 
     #head {
-        background-color: #21242f!important;
+        background-color: #a7a7a7!important;
         border-bottom: 0px;
-        height: 15px;
+        height: 30px;
         padding: 15px;
     }
 
